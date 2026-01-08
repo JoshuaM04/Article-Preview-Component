@@ -19,7 +19,6 @@ body {
     width: 75vw;
     height: 75vh;
     background-color: var(--white);
-    font-size: .8rem;
     border-style: clear;
     border-radius: 10px;
 }
@@ -27,6 +26,17 @@ body {
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+.text-body {
+    margin: 2rem;
+}
+.header {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
 }
 .attribution {
     position: fixed;
