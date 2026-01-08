@@ -20,8 +20,8 @@ body {
     align-items: center;
 }
 .container {
-    width: 75vw;
-    height: 64vh;
+    width: 85vw;
+    height: 71vh;
     background-color: var(--white);
     border-style: clear;
     border-radius: 10px;
@@ -36,22 +36,23 @@ body {
     border-top-right-radius: 10px;
 }
 .text-body {
-    margin: 1.6rem;
+    margin: 2rem;
 }
 .header {
     color: var(--dark-gray-blue);
-    font-size: 1rem;
-    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
 }
 .description {
     color: var(--desaturated-dark-blue);
-    font-size: .9rem;
-    margin-bottom: 2rem;
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
 }
 .publication-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 0rem;
 }
 .avatar {
     width: 3rem;
@@ -71,8 +72,11 @@ body {
     color: var(--gray-blue);
 }
 .share {
+    height: 2rem;
+    width: 2rem;
     border-radius: 50%;
     border: none;
+    margin-left: 3rem;
 }
 a {
     text-decoration: none;
