@@ -1,5 +1,6 @@
 :root {
-    --light-gray-blue: hsl(210, 46%, 95%);
+    --light-gray-blue: hsl(210, 48%, 91%);
+    --white: hsl(0, 0%, 100%);
 }
 * {
     margin: 0;
@@ -15,12 +16,17 @@ body {
     align-items: center;
 }
 .container {
+    width: 75vw;
+    height: 75vh;
+    background-color: var(--white);
     font-size: .8rem;
-    width: 50vw;
-    border-style: solid;
+    border-style: clear;
+    border-radius: 10px;
 }
 .drawers {
     width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .attribution {
     position: fixed;
