@@ -1,5 +1,8 @@
 :root {
+    --dark-gray-blue: hsl(217, 19%, 35%);
     --light-gray-blue: hsl(210, 48%, 91%);
+    --desaturated-dark-blue: hsl(214, 17%, 51%);
+    --gray-blue: hsl(212, 23%, 69%);
     --white: hsl(0, 0%, 100%);
 }
 * {
@@ -8,6 +11,7 @@
     box-sizing: border-box;
 }
 body {
+    font-family: 'Manrope';
     height: 100vh;
     background-color: var(--light-gray-blue);
     display: flex;
@@ -17,10 +21,14 @@ body {
 }
 .container {
     width: 75vw;
-    height: 75vh;
+    height: 64vh;
     background-color: var(--white);
     border-style: clear;
     border-radius: 10px;
+}
+.img-container img {
+    height: 23vh;
+    object-fit: cover;
 }
 .drawers {
     width: 100%;
@@ -28,19 +36,22 @@ body {
     border-top-right-radius: 10px;
 }
 .text-body {
-    margin: 2rem;
+    margin: 1.6rem;
 }
 .header {
-    font-size: 1.2rem;
+    color: var(--dark-gray-blue);
+    font-size: 1rem;
     margin-bottom: 1rem;
 }
 .description {
-    font-size: 1rem;
-    margin-bottom: 1rem;
+    color: var(--desaturated-dark-blue);
+    font-size: .9rem;
+    margin-bottom: 2rem;
 }
 .publication-info {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .avatar {
     width: 3rem;
@@ -53,11 +64,24 @@ body {
 .name-and-date p {
     font-size: 1rem;
 }
+.author-name {
+    color: var(--dark-gray-blue);
+}
+.date {
+    color: var(--gray-blue);
+}
 .share {
     border-radius: 50%;
     border: none;
 }
+a {
+    text-decoration: none;
+}
+a:hover {
+    font-weight: bold;
+}
 .attribution {
+    font-size: .8rem;
     position: fixed;
     bottom: 0;
 }
