@@ -1,0 +1,28 @@
+:root {
+    --light-gray-blue: hsl(210, 46%, 95%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-color: var(--light-gray-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    font-size: .8rem;
+    width: 50vw;
+    border-style: solid;
+}
+.drawers {
+    width: 100%;
+}
+.attribution {
+    position: fixed;
+    bottom: 0;
+}
