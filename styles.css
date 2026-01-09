@@ -35,23 +35,28 @@ body {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.text-body {
-    margin: 2rem;
-}
 .header {
     color: var(--dark-gray-blue);
     font-size: 1.2rem;
-    margin-bottom: 1.5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
 }
 .description {
     color: var(--desaturated-dark-blue);
     font-size: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
     margin-bottom: 2.5rem;
 }
 .publication-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 3.5rem;
     gap: 0rem;
 }
 .avatar {
@@ -77,6 +82,14 @@ body {
     border-radius: 50%;
     border: none;
     margin-left: 3rem;
+}
+.pop-up {
+    background-color: var(--dark-gray-blue);
+    position: absolute;
+    bottom: 5rem;
+}
+.pop-text {
+    display: inline;
 }
 a {
     text-decoration: none;
