@@ -63,6 +63,16 @@ body {
     gap: 0rem;
     display: show;
 }
+.publication-info-hide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 3.5rem;
+    gap: 0rem;
+    display: none;
+}
 .avatar {
     width: 3rem;
     height: 3rem;
@@ -94,6 +104,14 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     display: none;
+}
+.pop-up-shown {
+    width: 100%;
+    padding: 1.7rem;
+    background-color: var(--dark-gray-blue);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: show;
 }
 .pop-text {
     margin-right: 1rem;
