@@ -61,7 +61,7 @@ body {
     margin-left: 2rem;
     margin-top: 3.5rem;
     gap: 0rem;
-    display: none;
+    display: show;
 }
 .avatar {
     width: 3rem;
@@ -93,6 +93,7 @@ body {
     background-color: var(--dark-gray-blue);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    display: none;
 }
 .pop-text {
     margin-right: 1rem;
@@ -100,19 +101,26 @@ body {
 }
 .facebook-icon {
     height: 100%;
+    background-color: var(--dark-gray-blue);
     margin-right: 1rem;
+    border-style: none;
 }
 .twitter-icon {
     height: 100%;
+    background-color: var(--dark-gray-blue);
     margin-right: 1rem;
+    border-style: none;
 }
 .pinterest-icon {
     height: 100%;
+    background-color: var(--dark-gray-blue);
     margin-right: 5rem;
+    border-style: none;
 }
 .share-hide {
     height: 2rem;
     width: 2rem;
+    background-color: red;
     border-radius: 50%;
     border: none;
 }
