@@ -20,11 +20,14 @@ body {
     align-items: center;
 }
 .container {
+    display: flex;
+    flex-direction: column;
     width: 85vw;
     height: 71vh;
     background-color: var(--white);
     border-style: clear;
     border-radius: 10px;
+    overflow: hidden;
 }
 .img-container img {
     height: 23vh;
@@ -58,6 +61,7 @@ body {
     margin-left: 2rem;
     margin-top: 3.5rem;
     gap: 0rem;
+    display: none;
 }
 .avatar {
     width: 3rem;
@@ -76,7 +80,7 @@ body {
 .date {
     color: var(--gray-blue);
 }
-.share {
+.share-show {
     height: 2rem;
     width: 2rem;
     border-radius: 50%;
@@ -84,12 +88,33 @@ body {
     margin-left: 3rem;
 }
 .pop-up {
+    width: 100%;
+    padding: 1.7rem;
     background-color: var(--dark-gray-blue);
-    position: absolute;
-    bottom: 5rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .pop-text {
+    margin-right: 1rem;
     display: inline;
+}
+.facebook-icon {
+    height: 100%;
+    margin-right: 1rem;
+}
+.twitter-icon {
+    height: 100%;
+    margin-right: 1rem;
+}
+.pinterest-icon {
+    height: 100%;
+    margin-right: 5rem;
+}
+.share-hide {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: none;
 }
 a {
     text-decoration: none;
